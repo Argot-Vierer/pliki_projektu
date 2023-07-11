@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class TodoListComponent {
 
+  todos: string[] = [];
+  addTodo(): void {
+    console.log('Aktualna lista todo:' , this.todos);
+  }
+
 }
